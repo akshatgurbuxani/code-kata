@@ -1,4 +1,4 @@
-# Code Kata
+# code-kata
 
 A collection of programming exercises exploring different paradigms, design patterns, and implementation approaches for learning purposes.
 
