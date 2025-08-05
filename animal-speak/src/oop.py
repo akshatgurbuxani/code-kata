@@ -47,14 +47,3 @@ class Cat(Animal):
         Returns a string with the animal's name and age.
         """
         return f"Meow. My name is {self.name}, and I am {self.age} {self.year} old."
-
-kitty = Cat("Kitty", 0)
-rex = Dog("Rex", 1)
-sylvester = Cat("Sylvester", 2)
-fido = Dog("Fido", 6)
-
-
-animals = (kitty, rex, sylvester, fido)
-
-for animal in animals:
-    print(animal.speak())
