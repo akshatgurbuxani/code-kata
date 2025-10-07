@@ -1,0 +1,16 @@
+notification_data_config:
+  email:
+    subject: "Notification"
+    body: "You have a new notification"
+    recipients: ["test@test.com"]
+    sender: "test@test.com"
+  sms:
+    subject: "Notification"
+    body: "You have a new notification"
+    recipients: ["1234567890"]
+    sender: "1234567890"
+  push:
+    subject: "Notification"
+    body: "You have a new notification"
+    recipients: ["1234567890"]
+    sender: "1234567890"
