@@ -1,0 +1,26 @@
+calculator:
+  name: "Simple Two-Input Calculator"
+
+  operations:
+    add:
+      symbol: "+"
+      description: "Addition"
+    subtract:
+      symbol: "-"
+      description: "Subtraction"
+    multiply:
+      symbol: "*"
+      description: "Multiplication"
+    divide:
+      symbol: "/"
+      description: "Division"
+  
+  errors:
+    division_by_zero: "Error: Division by zero"
+    invalid_expression: "Error: Invalid expression"
+    unmatched_parentheses: "Error: Unmatched parentheses"
+    unknown_operation: "Error: Unknown operation"
+  
+  output_format:
+    decimal_places: 2
+    format_output: true
