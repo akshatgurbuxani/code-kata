@@ -1,0 +1,15 @@
+module-manager:
+  modules:
+    - name: greet
+      description: "Greet the user"
+      args:
+        name: "Akshat"
+        greeting: "Hello {name} how are you!?"
+    - name: echo
+      description: "Echo the user's message"
+      args:
+        message: "{message}"
+    - name: date
+      description: "Get the current date"
+      args: {}
+      
